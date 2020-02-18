@@ -1,4 +1,4 @@
-package com.python;
+package com.appointment.timePrediction.usePython;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -42,15 +42,15 @@ public class usePython {
 		}
 		
 		//调用测试
-		public static void main(String[] args) {
-			// TODO Auto-generated method stub
-			
-			usePython u = new usePython();
-			String res = u.usePython("all");
-		
-			System.out.println(res);
-			
-		}	
+//		public static void main(String[] args) {
+//			// TODO Auto-generated method stub
+//			
+//			usePython u = new usePython();
+//			String res = u.usePython("all");
+//		
+//			System.out.println(res);
+//			
+//		}	
 }
 
 

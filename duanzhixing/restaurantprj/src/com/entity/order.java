@@ -17,6 +17,7 @@ public class order {
 	private String order_end;//结束时间
 	private table table;//桌号
 	private user user;//用户
+	private int order_status;//订单状态
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -66,6 +67,14 @@ public class order {
 	public void setUser(user user) {
 		this.user = user;
 	}
+	
+	public int getOrder_status() {
+		return order_status;
+	}
+	public void setOrder_status(int order_status) {
+		this.order_status = order_status;
+	}
+	
 	
 	
 	

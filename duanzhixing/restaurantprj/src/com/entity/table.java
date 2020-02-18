@@ -9,7 +9,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="table")
+@Table(name="mytable")
 public class table {
 	private int tb_id;//桌子号
 	private int tb_num;//几人卓
